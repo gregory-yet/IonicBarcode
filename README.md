@@ -4,4 +4,4 @@ A full open-source code, you can add this code to your project with Ionic, this 
 
 ##Screenshots
 
-![home](http://i.imgur.com/mwKxnON.png)
+![home](http://i.imgur.com/4SF1mKr.png)
