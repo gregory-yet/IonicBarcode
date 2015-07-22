@@ -51,18 +51,10 @@ barcode.controller("scan", function($scope, $cordovaBarcodeScanner, $ionicPopup,
 
 	$scope.scanBarcode = function() {
 		$cordovaBarcodeScanner.scan().then(function(code) {
-			if(code.format == "CODE_128"){
-				$ionicPopup.alert({
-					title: 'Résultat',
-					template: code.text+"<br>"+code.format+" "+window.StatusBar
-				});
-			}
-			else {
-				$ionicPopup.alert({
-					title: 'Résultat',
-					template: "Attention ce n'est pas un CODE_128 !<br>"+code.text+"<br>"+code.format
-				});
-			}
+			$ionicPopup.alert({
+				title: 'Résultat',
+				template: code.text+"<br>"+code.format
+			});
 		}, function(error) {
 			$ionicPopup.alert({
 				title: 'Erreur',
