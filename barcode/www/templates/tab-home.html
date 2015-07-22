@@ -1,0 +1,12 @@
+<ion-view view-title="Barcode scanner">
+	<ion-pane>
+		<ion-content ng-controller="scan" on-swipe-right="goBack()" on-swipe-left="goForward()">
+			<div class="card">
+				<div class="item item-text-wrap">
+					Cette application permet de scanner n&apos;importe quel code barre : des barcodes de shopping ou m&#xEA;me des QR codes. Application r&#xE9;alis&#xE9;e pour quelques essais !
+					<button ng-click="scanBarcode()" class="button button-full button-positive" style="margin-top:40px;">Scan</button>
+				</div>
+			</div>
+		</ion-content>
+	</ion-pane>
+</ion-view>
