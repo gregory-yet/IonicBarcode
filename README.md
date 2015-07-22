@@ -4,7 +4,7 @@ A full open-source code, you can add this code to your project with Ionic, this 
 
 ##Notes
 
-Please check the code, if you don't need any plugins of my project (statusbar for example) or other  : remove it, because if you have a project already up, you can have some plugins or code uncompatible... so don't copy / paste into your editor and run, check the code before, after that, you can use it !
+Please check the code, if you don't need any plug-ins of my project (statusbar for example) or other: remove it because if you have a project already up, you can have some plugins or code uncompatible ... so don't copy / paste into your editor and run, check the code before, after that, you can use it!
 
 ##Screenshots
 
