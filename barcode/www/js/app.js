@@ -63,6 +63,7 @@ barcode.controller("scan", function($scope, $cordovaBarcodeScanner, $ionicPopup,
 		});
 	};
 
+	/* Remove this comment if u want to use more than one Tab
 	$scope.goForward = function () {
 		var selected = $ionicTabsDelegate.selectedIndex();
 		if (selected != -1) {
@@ -76,6 +77,7 @@ barcode.controller("scan", function($scope, $cordovaBarcodeScanner, $ionicPopup,
 			$ionicTabsDelegate.select(selected - 1);
 		}
 	}
+	*/
 
 });
 
